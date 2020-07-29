@@ -132,6 +132,7 @@ body {
     margin: 0 auto 2.5em;
     max-width: 20%;
     letter-spacing: 0.8px;
+    line-height: 1.5;
 }
 .myPic{
     position: absolute;
@@ -144,7 +145,7 @@ body {
 .logos{
     margin: 0 auto;
     width: 100%;
-    margin-left: 45%;
+    margin-left: 46%;
     max-width: 10%;
     padding: 1em;
 }
