@@ -1,14 +1,51 @@
+.mainNav {
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 1.2em;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    max-height: 4.5em;
+}
+.navList {
+    padding: 0;
+    color: white; 
+    display: none;  
+}
+.is-active.navList{
+    display: flex;
+}
+.navItems {
+    list-style: none;
+    margin-left: 1.8em;
+}
+.active {
+    color: lightseagreen;
+}
+.navItems:hover {
+    color: gray;
+    cursor: pointer;
+}
+.selfIcon__element {
+    background-color: white;
+    width: 2.8em;
+    height: 0.5em;
+    border-radius: 8%;
+    margin: 0.22em;
+    padding: 0.1em;
+}
 .mainTitle {
     font-size: 3rem;
     color: whitesmoke; 
     font-weight: 900;
-    margin: 0.5em auto 1em;
+    margin: -2em auto 1em;
     text-align: center;
     max-width: 20%;
 }
 .icon{
     width: 4%;
-    padding: 0.5em;
+    padding: 0.2em;
     margin-right: 0.5em;
     float: right;
     color: white;
@@ -39,9 +76,11 @@
   }
   
 body {
-    background: rgb(125,126,125); /* Old browsers */
+    background: rgb(125,126,125); 
     background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
     font-family: Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 6em;
     }
 .timeline {
     position: relative;
@@ -135,7 +174,7 @@ body {
     line-height: 1.5;
 }
 .myPic{
-    position: absolute;
+    position: relative;
     max-width: 10%;
     margin: 0 auto;
     border-radius: 100%;
@@ -156,4 +195,18 @@ body {
 .JS{
     width: 25%;
     margin:0.1em auto;
+}
+.footer {
+    left: 0;
+    top: 0;
+    padding: 2em;
+    max-width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    height: 4em;
+}
+.footerText {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
 }
