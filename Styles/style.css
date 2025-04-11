@@ -28,7 +28,7 @@
     color: lightseagreen;
 }
 .navItems:hover {
-    color: gray;
+    transform: scale(1.1);
     cursor: pointer;
 }
 .selfIcon {
