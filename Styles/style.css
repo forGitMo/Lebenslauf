@@ -283,6 +283,7 @@ body {
 }
 
 .persönlicheDaten {
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     justify-content: center;
@@ -291,9 +292,10 @@ body {
 
 .img-me-container{
     margin: 0 auto;
-    width: 40%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    transition: all 0.6s ease-in-out; 
 }
 
 .referenzen{
@@ -302,9 +304,10 @@ body {
     justify-content: center;
     padding: 15px;
 }
-.img-me-container {
-    transition: all 0.6s ease-in-out;  
+.img-container, .me-container{
+    padding: 20px;
 }
+
 
 .container {
     transition: all 0.6s ease-in-out;
