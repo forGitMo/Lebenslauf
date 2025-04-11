@@ -30,7 +30,6 @@
 }
 
 .navItems {
-    margin-left: 20px;
     opacity: 0;
     transform: translateY(-5px);
     transition: opacity 0.4s ease, transform 0.4s ease;
