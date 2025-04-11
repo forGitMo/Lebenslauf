@@ -269,11 +269,32 @@ body {
     justify-content: center;
     padding: 15px;
 }
+.img-me-container {
+    transition: all 0.6s ease-in-out;  
+}
+
 .container {
     transition: all 0.6s ease-in-out;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
+    .img-me-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img-container img{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .myPic{
+        margin: 0 auto;
+    }
+    .persönlicheDaten {
+        padding: 20px;
+    }
     .timeline{
         display: flex;
         flex-direction: column;
