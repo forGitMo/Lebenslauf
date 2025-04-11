@@ -269,3 +269,26 @@ body {
     justify-content: center;
     padding: 15px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .right {
+        left: 50%;
+    }
+    .right::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        left: 0px;
+        right: 30px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    .right::after {
+        left: -16px;
+    }
+  }
