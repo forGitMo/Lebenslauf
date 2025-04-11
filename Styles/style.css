@@ -121,7 +121,7 @@ body {
     bottom: 0;
     left: 50%;
     margin-left: -3px;
-    height: 82%;
+    height: 86%;
     margin-top: 2em;
 }
 .container {
@@ -182,11 +182,10 @@ body {
     border-radius: 6px;
 }
 .subTitle {
-    margin: 0 auto 1em;
+    margin: 0 auto;
     color: white;
     text-align: center;
     font-weight: 400;
-    margin-right: 0;
 }
 .text {
     color: whitesmoke;
@@ -194,15 +193,14 @@ body {
     text-align: justify;
     font-weight: 200;
     margin: 0 auto 2.5em;
-    max-width: 20%;
     letter-spacing: 0.8px;
     line-height: 1.5;
 }
 .myPic{
-    position: sticky;
-    max-width: 10%;
+   /* position: sticky;*/
+    max-width: 45%;
     border-radius: 100%;
-    margin-left: 28em;
+    margin: 12px;
     border: 4px solid white;
     transition: 0.2s;
     box-shadow:
@@ -251,6 +249,20 @@ body {
     display: none;
 }
 
-.img-me-container {
+.persönlicheDaten {
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.img-me-container{
     display: flex;
+    justify-content: center;
+}
+
+.referenzen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
