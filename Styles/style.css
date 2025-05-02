@@ -32,12 +32,12 @@
     opacity: 0;
     transform: translateY(-5px);
     transition: opacity 0.4s ease, transform 0.4s ease;
+    margin: 0 5px;
 }
 .navItems:hover {
     transform: scale(1.4);
     cursor: pointer;
     color: lightseagreen;
-    margin: 0 5px;
 }
 
 .navList.is-active .navItems {
