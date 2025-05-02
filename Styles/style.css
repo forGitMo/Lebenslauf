@@ -37,6 +37,7 @@
     transform: scale(1.4);
     cursor: pointer;
     color: lightseagreen;
+    margin: 0 5px;
 }
 
 .navList.is-active .navItems {
