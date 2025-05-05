@@ -16,14 +16,14 @@ html, body {
     background-color: whitesmoke;
     border-radius: 6px;
     display: grid;
-    grid-template-areas:
-    "firstday intro"
-    "htext hopfen"
-    "footer footer";
     grid-template-columns: auto auto;
     column-gap: 20px;
     row-gap: 30px;
     padding: 40px;
+}
+.ende{
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 .img {
     display: block;
@@ -36,32 +36,17 @@ html, body {
     border-radius: 1em;
     
 }
-.content-card-img .firstday{
-    grid-area: firstday;
-}
-.content-card-text .firstday {
-    grid-area: intro;
-}
-
-.content-card-img .hopfen {
-    grid-area: hopfen;
-}
-.content-card-text .hopfen {
-    grid-area: htext;
-}
 
 
 @media only screen and (max-width: 1000px) {
     .content {
         display: grid;
-        grid-template-areas:
-        "intro"
-        "firstday"
-        "htext"
-        "hopfen"
-        "footer";
         grid-template-columns: auto;
         column-gap: 10px;
+    }
+    .ende{
+        grid-column-start: 1;
+        grid-column-end: 1;
     }
     .img {
         padding: 1px;
