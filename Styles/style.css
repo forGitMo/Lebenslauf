@@ -78,7 +78,7 @@
     font-size: 3rem;
     color: whitesmoke; 
     font-weight: 900;
-    margin: -3.4em auto 1em;
+    margin: 0 auto 1em;
     text-align: center;
     max-width: 50%;
 }
@@ -130,7 +130,7 @@
 body {
     background: linear-gradient(to bottom, rgba(112,112,112,1) 0%, rgba(0,0,0,1) 100%);
     font-family: Helvetica, sans-serif;
-    margin-top: 18em;
+    margin-top: 8em;
     }
 .timeline {
     position: relative;
