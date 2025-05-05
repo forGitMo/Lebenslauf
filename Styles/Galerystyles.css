@@ -28,11 +28,13 @@ html, body {
 .img {
     display: block;
     margin: auto;
+    padding: 10px;
     height: auto; 
     width: auto; 
     max-width: 800px; 
     max-height: 300px;
-    border-radius: 4px;
+    border-radius: 1em;
+    
 }
 .content-card-img .firstday{
     grid-area: firstday;
