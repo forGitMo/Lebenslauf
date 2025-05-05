@@ -99,8 +99,9 @@
     0 100px 80px rgba(0, 0, 0, 0.12)
 }
 .myAcc {
-    margin: 0 auto;
+    margin:  auto;
     margin-left: 47%;
+    margin-top: 15px;
 }
 .icon:hover {
     background-color: white;
