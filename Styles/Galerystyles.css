@@ -7,6 +7,9 @@ html, body {
     color: white;
     text-align: center;
 }
+.center {
+    text-align: center;
+}
 .content-container {
     margin: 8em auto;
     max-width: 70%;
@@ -15,13 +18,10 @@ html, body {
 .content {
     background-color: whitesmoke;
     border-radius: 6px;
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 20px;
-    row-gap: 30px;
     padding: 40px;
+    margin-bottom: 80px;
 }
-.ende{
+.ende, .start{
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -36,21 +36,36 @@ html, body {
     border-radius: 1em;
     
 }
+.slide {
+    display: none;
+    grid-template-columns: auto auto;
+    padding: 40px;
+  }
+  .slide.on {
+    display: grid;
+  }
+
+  .navigation{
+    margin: 0 auto;
+  }
 
 
 @media only screen and (max-width: 1000px) {
-    .content {
-        display: grid;
+    .slide {
+        padding: 0;
         grid-template-columns: auto;
-        column-gap: 10px;
+        column-gap: 40px;
     }
-    .ende{
+    .content {
+        padding: 10;
+    }
+    .ende, .start{
         grid-column-start: 1;
         grid-column-end: 1;
     }
     .img {
-        padding: 1px;
-        max-width: 100%; 
+        margin-top: 10px;
+        max-width: 90%; 
     }
     .content-container {
         margin: 2em auto;
